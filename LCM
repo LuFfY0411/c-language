@@ -1,0 +1,30 @@
+
+#include <stdio.h>
+
+int main() {
+    int a,b;
+    printf("enter a and b");
+    scanf("%d%d",&a,&b);
+   int big=a>b?a:b;
+  int step=big;
+    while(1){
+        if(big%a==0 && big%b==0){
+            break;
+        }
+        else
+          big=big+step;
+         
+        
+           
+            
+            
+            
+            
+            
+            
+           
+    
+    
+}
+ printf("%d",big);
+}
